@@ -1,37 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/gmachiraju/MulticompartmentTumors/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Preface: Mathematical modeling of tumor biomarker shedding
+Can we do better with tumor characterization via blood-based biomarker detection? Aligning with the Canary Center’s push for this idea, we seek to further mathematical models of biomarker shedding kinetics in early-stage solid tumors. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes hi
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gmachiraju/MulticompartmentTumors/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+By introducing spatial dimensionality to traditional 1D compartment models, our team encodes intratumoral heterogeneity as a gradient of tissue oxygenation dependent on distance to proximal vasculature. Given a patient’s plasma marker concentration, we can not only predict tumor staging and extracellular shedding from proliferating cells, but also capture emergent hypoxic regions (associated with metastatic activity) and intracellular shedding via necrosis. In order to generalize model inputs over all protein biomarkers, we define parameters as probabilistic heuristics trained on a dataset of 3000+ proteins. We aim to publish this modeling regime next month in Nature Scientific Reports followed by a validation study involving in vivo mouse xenografts. 
